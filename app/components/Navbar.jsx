@@ -35,7 +35,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
       {/* WHATSAPP for quick connect */}
       <a href="https://api.whatsapp.com/send?phone=917330707182&text=Hello%20there!">
-        <div className="flex right-[15px] bottom-[15] fixed border border-black-500 rounded-2xl justify-center items-center p-2 z-[51]">
+        <div className="flex right-[15px] bottom-[15px] fixed border border-black-500 rounded-2xl justify-center items-center p-2 z-[51]">
           <Image
             src={assets.whatsapp}
             className="w-[25px] h-[25px]"
